@@ -1,1 +1,175 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T04:48:56.714Z" agent="5.0 (X11)" etag="e9loE8_vpvZAhHS7A5J5" version="15.3.3" type="github"><diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">7ZjLcpswFIafhmU6RhgbL2Pn0kU6yTSdSbOU4QTUCMQIEeM+fSUQYC5OcGrctNOVpV8XxP/pnMPYsFZhds1xHHxhHlADTbzMsC4MhEyELPmjlK1WTAcVis+Jp7VauCc/QYsTrabEg6QxUTBGBYmbosuiCFzR0DDnbNOc9sRo86kx9qEj3LuYdtUH4omgUB17UuufgfhB+WRzokdCXE7WQhJgj212JOvSsFacMVG0wmwFVLlX+lKsu9ozWh2MQySGLLCidHmV8YW7vZnE0e3DN4Svz/QuL5im+oUN6/x2/UNZWZxabEsr5AvEqpmG9IY8ASWR7C1j4CQEAVyOUC3f1dpSghFYamrczPuU4jgh63zbiVQ4uClPyAt8haTgn6ssjTzwdK8yL+8Izp4rHGpT/RbABWR77TEr0+V1BSYPyLdySnVXNSd9Ux3d3dTUK7bBDnGrFLG+aX61dQ1DNjSPA9igLps2kpiRSOTPtZeGfdHCwbgImM8iTHeBHN/Y/Tdrr9tTu2H2vM/srtfmYiyvrY7XHkliLNyg47kyg8gEcU6JH0lpzYRgYe4e5uJc5RzlvdxKahB5pbKmzH0up+lE5wwlAF4nTQ3xXyZLzH14bR7q58SBYiFjsplQe2zXS+/UTaz5npn9gMsdEpZyF/SiFrvqFO/HOf2HQ8du5qkqb70RO85YoWP/LyFZqxR8mBIy+6vjwD6khPSa3VNCZmN5Pe94zUGkPBpeQHaKBYtBDi09nAS5z2YxvFM2ICPiuzZdtR9V+9PCfndFKVLy25dpWEUZFDe/WWTQvHkFkDVrblEcdbQq4xzho6HnA0G6xrcVWtV5PCTSDgeLBoKd/SmwnaAd+fNh0QEr0dE1lniOAtY8EdihETs9Gdhps0KiduUbGWxZEU6dpM2TJenph4vlNnJ7fqQkLbv1vyfF9PpPKOvyFw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-28T06:57:24.549Z" agent="5.0 (X11)" etag="Q4aGgx4mAEWaMBsmFGJd" version="15.3.3" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1718" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-1" value="Start to fetch sources" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-4" value="Create local branch for each device and android version." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-7" value="Select best commits and cherry-pick them on local branch." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-8" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="290" as="sourcePoint" />
+            <mxPoint x="80" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-9" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-7" target="QDMbc1mukFYNIrMYqrdn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239" y="620" as="sourcePoint" />
+            <mxPoint x="79" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-10" value="If build needed?" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-11" value="Yes" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="740" as="sourcePoint" />
+            <mxPoint x="79" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-12" target="QDMbc1mukFYNIrMYqrdn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-12" value="Create a job in Jenkins and add to queue." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="19" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-13" value="No" style="curved=1;endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-10" target="QDMbc1mukFYNIrMYqrdn-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159" y="750" as="sourcePoint" />
+            <mxPoint x="189" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="189" y="760" />
+              <mxPoint x="189" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-16" value="No" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-14" target="QDMbc1mukFYNIrMYqrdn-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-18" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-14" target="QDMbc1mukFYNIrMYqrdn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-14" value="If want to write code in kernel tree." style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-17" value="Gerrit code review system!" style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-23" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-19" target="QDMbc1mukFYNIrMYqrdn-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-24" value="No" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-19" target="QDMbc1mukFYNIrMYqrdn-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="1010" as="targetPoint" />
+            <mxPoint x="-120" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-19" value="If successful?" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-22" target="QDMbc1mukFYNIrMYqrdn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-22" value="Get output and flash on device." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-34" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-25" target="QDMbc1mukFYNIrMYqrdn-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="19" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-25" value="Get and read logs then resolve Errors. " style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-28" value="No" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-27" target="QDMbc1mukFYNIrMYqrdn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-30" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-27" target="QDMbc1mukFYNIrMYqrdn-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-27" value="Nead to upstream?" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-29" target="QDMbc1mukFYNIrMYqrdn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-29" value="Merge to Upstream (ACK, CAF, etc)." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.956;entryY=0.763;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-31" target="QDMbc1mukFYNIrMYqrdn-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-31" value="Resolve conflicts." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-37" value="No" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-36" target="QDMbc1mukFYNIrMYqrdn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-41" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-36" target="QDMbc1mukFYNIrMYqrdn-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-36" value="If boot?" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-40" target="QDMbc1mukFYNIrMYqrdn-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-40" value="Test functionality." style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-44" value="No" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-42" target="QDMbc1mukFYNIrMYqrdn-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-46" value="Yes" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-42" target="QDMbc1mukFYNIrMYqrdn-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-42" value="If OK?" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-45" target="QDMbc1mukFYNIrMYqrdn-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-45" value="Merge request." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-47" target="QDMbc1mukFYNIrMYqrdn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-47" value="Select a device from queue." style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-52" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="QDMbc1mukFYNIrMYqrdn-51" target="QDMbc1mukFYNIrMYqrdn-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QDMbc1mukFYNIrMYqrdn-51" value="Devs in kernel team." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
