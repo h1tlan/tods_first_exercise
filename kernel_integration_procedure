@@ -1,1 +1,348 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T04:07:18.286Z" agent="5.0 (X11)" version="15.3.8" etag="F-rh_4-nroB1r7EYalI5" type="github"><diagram id="BnmJnOs_Z4Kz5Nw6lDn6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-02T06:05:28.864Z" agent="5.0 (X11)" etag="E-FiWeoNgZRvf7e1wQMs" version="15.3.8" type="github">
+  <diagram id="BnmJnOs_Z4Kz5Nw6lDn6" name="Page-1">
+    <mxGraphModel dx="2170" dy="1203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AEVsNKctbcvQUGDoalDr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-1" target="AEVsNKctbcvQUGDoalDr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-1" value="Start: create local branch in stock kernel." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-3" target="AEVsNKctbcvQUGDoalDr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-3" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;font-weight: bold ; color: #000000 ; background-color: #ffffff&quot;&gt;qcacld-3.0 &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;driver.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-5" target="AEVsNKctbcvQUGDoalDr-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-5" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;font-weight: bold ; color: #000000 ; background-color: #ffffff&quot;&gt;qca-wifi-host-cmn &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;driver.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-7" target="AEVsNKctbcvQUGDoalDr-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-7" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;font-weight: bold ; color: #000000 ; background-color: #ffffff&quot;&gt;fw-api &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;driver.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-11" target="AEVsNKctbcvQUGDoalDr-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-11" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;font-weight: bold ; color: #000000 ; background-color: #ffffff&quot;&gt;techpack/audio &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;driver.&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-13" target="AEVsNKctbcvQUGDoalDr-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-13" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #b26818 ; background-color: #ffffff&quot;&gt;&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;font-weight: bold ; color: #000000 ; background-color: #ffffff&quot;&gt;misc/motomods/greybus &lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(255 , 255 , 255)&quot;&gt;drivers.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-15" target="AEVsNKctbcvQUGDoalDr-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-15" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;misc/motomods/v4l2_hal &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;driver.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-17" target="AEVsNKctbcvQUGDoalDr-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-17" value="Modify and cherry-pick commits or apply patchs." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-17" target="AEVsNKctbcvQUGDoalDr-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-21" target="AEVsNKctbcvQUGDoalDr-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-21" value="Add&amp;nbsp; &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;moto_mods_driver &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Kconfig and Makefile&lt;/span&gt;&lt;/span&gt;." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-23" target="AEVsNKctbcvQUGDoalDr-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-23" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;&lt;b&gt;v4l2_hal&lt;/b&gt; Makefile.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-25" target="AEVsNKctbcvQUGDoalDr-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-25" value="Add &lt;span style=&quot;font-family: monospace&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;qcacld-3.0 &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Makefile.&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-27" target="AEVsNKctbcvQUGDoalDr-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-27" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import exfat driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-29" target="AEVsNKctbcvQUGDoalDr-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-29" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import Fingerprint drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-31" target="AEVsNKctbcvQUGDoalDr-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-31" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import AWINIC vibrator drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-33" target="AEVsNKctbcvQUGDoalDr-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-33" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import MMI_SYS_TEMP drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-35" target="AEVsNKctbcvQUGDoalDr-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-35" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import abov_a96t SAR sensor driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-37" target="AEVsNKctbcvQUGDoalDr-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-37" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import abov_sar_mmi_overlay SAR sensor driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-39" target="AEVsNKctbcvQUGDoalDr-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-39" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import moto UTAGS driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-41" target="AEVsNKctbcvQUGDoalDr-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-41" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import MMI drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-43" target="AEVsNKctbcvQUGDoalDr-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-43" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import Moto F_USBNET driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-45" target="AEVsNKctbcvQUGDoalDr-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-45" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;nfc: Import ST21NFC driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-47" target="AEVsNKctbcvQUGDoalDr-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-47" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;sensors: Import moto changes&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-49" target="AEVsNKctbcvQUGDoalDr-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-49" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;pinctrl: Import cirrus drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-52" target="AEVsNKctbcvQUGDoalDr-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-52" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Import misc Moto drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-54" target="AEVsNKctbcvQUGDoalDr-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-54" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;touchscreen: Import driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-56" target="AEVsNKctbcvQUGDoalDr-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-56" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;touchscreen: Import nova_0flash_mmi driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-58" target="AEVsNKctbcvQUGDoalDr-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-58" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;mfd: Import moto driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-60" target="AEVsNKctbcvQUGDoalDr-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-60" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;extcon: Import moto driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-62" target="AEVsNKctbcvQUGDoalDr-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-62" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;irqchip: Import moto driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-64" target="AEVsNKctbcvQUGDoalDr-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-64" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;gpio: Import Moto driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-66" target="AEVsNKctbcvQUGDoalDr-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-66" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;power: Import Moto power drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-68" target="AEVsNKctbcvQUGDoalDr-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-68" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Add popup drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-70" target="AEVsNKctbcvQUGDoalDr-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-70" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;misc: Add pen driver&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-72" target="AEVsNKctbcvQUGDoalDr-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-72" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;input: Add moto qpnp power on&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-74" target="AEVsNKctbcvQUGDoalDr-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-74" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;Add tps61280 regulator&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-76" target="AEVsNKctbcvQUGDoalDr-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-76" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;audio: Add SM6150 checking&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-77" target="AEVsNKctbcvQUGDoalDr-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-77" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;codecs: Import Awinic AW882XX&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-79" target="AEVsNKctbcvQUGDoalDr-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-79" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;misc: Import moto VL53L1 drivers&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-81" target="AEVsNKctbcvQUGDoalDr-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-81" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;scripts/dtc: Update to upstream version &lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-83" target="AEVsNKctbcvQUGDoalDr-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-83" value="apply a bunch of patchs and commits related to vdso." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-85" target="AEVsNKctbcvQUGDoalDr-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-85" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;odessa: Import defconfig from stock&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-87" target="AEVsNKctbcvQUGDoalDr-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-87" value="&lt;span style=&quot;font-family: monospace&quot;&gt;&lt;span style=&quot;color: #000000 ; background-color: #ffffff&quot;&gt;odessa: defconfig: Enable modules&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEVsNKctbcvQUGDoalDr-89" target="AEVsNKctbcvQUGDoalDr-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-89" value="Other customization, fixes and updates" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEVsNKctbcvQUGDoalDr-91" value="Build, boot and Fix errors." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
