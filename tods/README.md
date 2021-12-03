@@ -22,7 +22,7 @@ given initializations.
 For each i, the message-generation function msgsi is defined as follows:
 
     clock := clock + 1
-    if hop-count in send+ > 1  then    
+    if hop-count in send+ > 2  then    
 	send the current value of send+ to process i + 1
 	send+ := null
 
