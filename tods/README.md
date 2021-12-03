@@ -21,7 +21,7 @@ given initializations.
 s
 For each i, the message-generation function msgsi is defined as follows:
 
-    if clock % 2 = 0 then    
+    if clock % 2 = 1 then    
 	send the current value of send+ to process i + 1
 	send+ := null
 	clock := clock + 1
