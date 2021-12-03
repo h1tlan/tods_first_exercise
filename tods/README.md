@@ -21,14 +21,14 @@ given initializations.
 s
 For each i, the message-generation function msgsi is defined as follows:
 
+    clock := clock + 1
     if clock % 2 = 1 then    
 	send the current value of send+ to process i + 1
 	send+ := null
-	clock := clock + 1
+
     else
 	send the current value of send- to process i - 1
 	send- := null
-	clock := clock + 1
 	
 
 For each i, the transition function transi is defined by the following pseudo_code: 
