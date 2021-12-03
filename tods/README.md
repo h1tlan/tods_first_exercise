@@ -22,11 +22,11 @@ given initializations.
 For each i, the message-generation function msgsi is defined as follows:
 
     clock := clock + 1
-    if clock < 2^phase  then    
+    if hop-count in send+ > 1  then    
 	send the current value of send+ to process i + 1
 	send+ := null
 
-    else
+    else 
 	send the current value of send- to process i - 1
 	send- := null
 	
@@ -58,10 +58,8 @@ For each i, the transition function transi is defined by the following pseudo_co
 
     if the message from i - 1 is (u, in, 1) and right == leader
 	phase := phase + 1
-	clock := 0
 	right := unknown
 	send+ := (u, out, 2^phase)
 	send- := (u, out, 2^phase)
 ```
 
-## Stuck after 5 step or clock in process 3, (i = 3).
