@@ -18,11 +18,11 @@ For each i, the states in statesi consist of the following components:
 
 The set of start states starti consists of the single state defined by the 
 given initializations. 
-s
+
 For each i, the message-generation function msgsi is defined as follows:
 
     clock := clock + 1
-    if clock % 2 = 1 then    
+    if clock < 2^phase  then    
 	send the current value of send+ to process i + 1
 	send+ := null
 
@@ -58,6 +58,7 @@ For each i, the transition function transi is defined by the following pseudo_co
 
     if the message from i - 1 is (u, in, 1) and right == leader
 	phase := phase + 1
+	clock := 0
 	right := unknown
 	send+ := (u, out, 2^phase)
 	send- := (u, out, 2^phase)
