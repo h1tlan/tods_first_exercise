@@ -14,16 +14,17 @@ For each i, the states in statesi consist of the following components:
     status, with values in {unknown, leader}, initially unknown 
     phase, a nonnegative integer, initially 0
     right, with values in {unknown, leader}, initially unknown
+    clock, initially 0
 
 The set of start states starti consists of the single state defined by the 
 given initializations. 
 s
 For each i, the message-generation function msgsi is defined as follows:
 
-    if send+ != null then    
+    if clock == 0 then    
 	send the current value of send+ to process i + 1
 	send+ := null
-    else send- != null
+    else
 	send the current value of send- to process i - 1
 	send- := null
 	
